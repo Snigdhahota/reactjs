@@ -1,0 +1,53 @@
+body{
+  background-color: rgb(16, 147, 228);
+}
+.parent{
+  width: 75%;
+  margin: auto;
+}
+.child{
+margin-top: 20%;
+
+}
+.container{
+    background-color: white;
+    height: 450px;
+    width: 450px;
+    text-decoration: black;
+    border-radius: 25px;
+}
+.imgcon{
+  margin: auto;
+  height: 350px;
+  width: 350px;
+  background-color: lightcyan;
+  border-radius: 25px;
+}
+.imge{
+  height: 350px;
+  width: 350px;
+  border-radius: 15px;
+}
+.name{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px 4px;
+  text-decoration: solid;
+  font-weight: 500;
+  justify-content: center;
+}
+.details{
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  flex-grow: initial;
+}
+.slick-slide > div{
+  margin: 0px;
+
+}
+.li{
+  word-wrap: normal;
+  color: white;
+  flex-wrap: wrap;
+}
